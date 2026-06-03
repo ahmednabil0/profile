@@ -1,0 +1,33 @@
+app_breif:
+Here is the professional project brief and structured technology breakdown for the Dream (رؤية) app, perfectly tailored for your portfolio.
+
+🏗️ Project Brief: Dream (رؤية)
+Dream is a premium, real-time consultation and on-demand telecommunication platform designed to connect users with expert dream interpreters and scholars. Inspired by classical, knowledge-based methodologies (such as the teachings of Ibn Sirin and Nabulsi), the app provides an instantaneous, highly confidential environment for dream analysis. The architecture supports secure, private live calling, advanced multimedia messaging, personalized consultant profiles with complete ratings/feedback loops, and structured call-package subscription management.
+
+🛠️ Core Architectural & Technical Foundations
+Architecture & State Management: Engineered utilizing Clean Architecture patterns coupled with BLoC and Hydrated BLoC, guaranteeing automated persistent UI states, session caching, and crash resilience.
+
+Navigation & Micro-Services: Driven by Go Router for declarative navigation stacks, route guarding, and deep-linking pipelines that transition users smoothly from external shares into private consulting rooms.
+
+Serverless Backend: Built upon Firebase Cloud Functions to securely manage token authentications, handle secure payment parameters, and abstract business workflows safely away from the client device.
+
+technologies:
+Agora RTC & Zego Prebuilt Call: The primary real-time voice infrastructure powering secure, private, one-on-one audio consultation calls directly connecting users with active scholars.
+
+Flutter Foreground Service: System-level service layer engineered to maintain active network sockets, preventing the OS from dropping private consultation streams when the device goes into standby.
+
+Just Audio & Flutter Sound: Advanced audio engines handling background audio buffering, native media focus controls, and custom playback infrastructure for recorded consultant voice notes.
+
+AppsFlyer SDK & Firebase Analytics: A professional attribution and telemetry system deployed to monitor user acquisition loops, organic installs, and direct advertising conversions.
+
+Firebase Realtime DB & Cloud Firestore: A split-database strategy utilizing Firestore for deep dictionary datasets (symbols/scholarly text) and Realtime DB for immediate call availability states.
+
+Sentry & Firebase Crashlytics: Enterprise-grade diagnostic utilities establishing strict try-catch boundary telemetry to trap runtime bugs and profile app performance under production stress.
+
+Infinite Scroll Pagination: Memory management optimization layer that dynamically shards and lazy-loads massive lists of available consultants, past histories, and reviews.
+
+Pinput Security Framework: Implements strict security text layouts for fast, effortless One-Time Password (OTP) user authentication cycles and profile confirmation sequences.
+
+Showcaseview Engine: An interactive user onboarding technology that walks first-time users through app navigation paths, scheduling mechanics, and booking workflows.
+
+WebView Flutter & Linkwell: Embedded secure web rendering surfaces used to securely display policy documentation, scholarly articles, or integrated third-party payment gateways within the native shell.

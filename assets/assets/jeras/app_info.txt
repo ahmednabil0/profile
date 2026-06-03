@@ -1,0 +1,34 @@
+app_breif:
+Jeras is a high-fidelity, interactive educational and mentorship platform engineered to impart Islamic values and academic excellence to children. The platform bridges the gap left by traditional schooling by offering structured, value-driven programs through dynamic remote learning environments.
+
+Core Platform Features:
+One-on-One Live Mentorship: Implements a high-performance live video calling infrastructure connecting students with qualified educators for personalized, interactive learning sessions.
+
+Comprehensive Holistic Curriculum: Offers a diverse suite of educational tracks spanning Quran memorization, language learning, behavioral adjustment, and interactive bedtime storytelling.
+
+Managed Educational Supervision: Features dedicated pedagogical supervisors who actively assess student needs, customize learning tracks, and monitor ongoing academic and spiritual progress.
+
+Direct Synchronous Communication: Includes a real-time direct chat subsystem enabling seamless, continuous communication between parents, students, and teachers.
+
+Multi-Language & Accessible Architecture: Supports global localized delivery with courses offered in multiple languages, backed by flexible scheduling and competitive subscription pricing.
+
+technologies:
+Zego Cloud & Agora RTC Engine: Dual WebRTC streaming engines used to power low-latency, high-fidelity video conferencing and real-time VoIP consultations.
+
+Flutter Foreground Service: System-level architecture that maintains persistent network connections to prevent the OS from terminating active calls in the background.
+
+Just Audio & Flutter Sound: Advanced media engines used for low-latency audio playback, live voice recording, and handling complex device hardware audio sessions.
+
+Hydrated BLoC: Enhanced reactive state management that automatically persists and restores the application's UI state locally across app restarts.
+
+Go Router: Declarative, type-safe routing framework used to manage complex navigation stacks, deep links, and route guards seamlessly.
+
+Firebase Cloud Functions: Serverless backend infrastructure used to safely offload heavy computational tasks and secure third-party API configurations from the client side.
+
+Firebase Realtime DB & Firestore: A dual-tier database approach using Realtime DB for high-frequency sync (like active call statuses) and Firestore for structured collections.
+
+Sentry & Firebase Crashlytics: Enterprise-grade telemetry tools used for real-time application performance monitoring (APM), crash boundaries, and active error tracking.
+
+Infinite Scroll Pagination: Memory optimization technology that lazy-loads heavy data streams to keep infinite medical or message histories smooth and performant.
+
+Pinput: A highly customizable and secure UI engine engineered for smooth, hassle-free One-Time Password (OTP) verification flows.

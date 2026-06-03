@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <base href="/profile/">
+   <meta charset="UTF-8">
+   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+   <meta name="description" content="Ahmed Nabil - Premium Flutter Developer Portfolio">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="theme-color" content="#6366F1">
+
+   <!-- Open Graph / Facebook -->
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="https://ahmednabil0.github.io/profile/">
+   <meta property="og:title" content="Ahmed Nabil - Flutter Developer">
+   <meta property="og:description"
+      content="Senior Flutter Developer. Build high-performance cross-platform applications with modern architecture and scalable solutions.">
+   <meta property="og:image" content="https://ahmednabil0.github.io/profile/og-image.png">
+
+   <!-- Twitter -->
+   <meta property="twitter:card" content="summary_large_image">
+   <meta property="twitter:url" content="https://ahmednabil0.github.io/profile/">
+   <meta property="twitter:title" content="Ahmed Nabil - Flutter Developer">
+   <meta property="twitter:description"
+      content="Senior Flutter Developer. Build high-performance cross-platform applications with modern architecture and scalable solutions.">
+   <meta property="twitter:image" content="https://ahmednabil0.github.io/profile/og-image.png">
+
+   <!-- Favicon -->
+   <link rel="icon" type="image/jpeg" href="favicon.png">
+   <link rel="shortcut icon" type="image/jpeg" href="favicon.png">
+   <title>AN - Flutter Developer Portfolio</title>
+   <link rel="manifest" href="manifest.json">
+   <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+   <script>
+      window.addEventListener('flutter-first-frame', function () {
+         document.getElementById('loading').style.display = 'none';
+      });
+   </script>
+
+   <style>
+      html,
+      body {
+         width: 100%;
+         height: 100%;
+         margin: 0;
+         padding: 0;
+         font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      }
+
+      #loading {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         background: linear-gradient(135deg, #0A0E27 0%, #1A1F3A 100%);
+         color: #E8EAED;
+         font-size: 18px;
+         font-family: 'Poppins', sans-serif;
+      }
+
+      .loader {
+         border: 4px solid rgba(99, 102, 241, 0.1);
+         border-top-color: #6366F1;
+         border-radius: 50%;
+         width: 40px;
+         height: 40px;
+         animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+         to {
+            transform: rotate(360deg);
+         }
+      }
+   </style>
+</head>
+
+<body>
+   <div id="loading">
+      <div class="loader"></div>
+   </div>
+   <script src="flutter_bootstrap.js" defer></script>
+</body>
+
+</html>
